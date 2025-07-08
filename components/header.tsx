@@ -8,7 +8,7 @@ export function Header() {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Shield className="h-8 w-8 text-blue-400" />
-            <span className="text-2xl font-bold text-white">PhishGuard Pro</span>
+            <span className="text-2xl font-bold text-white">PhishGuard</span>
           </div>
           <nav className="hidden md:flex items-center space-x-6">
             <a href="#" className="text-slate-300 hover:text-white transition-colors">
