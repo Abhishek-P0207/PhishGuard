@@ -10,7 +10,7 @@ export function Header() {
             <Shield className="h-8 w-8 text-blue-400" />
             <span className="text-2xl font-bold text-white">PhishGuard</span>
           </div>
-          <nav className="hidden md:flex items-center space-x-6">
+          {/* <nav className="hidden md:flex items-center space-x-6">
             <a href="#" className="text-slate-300 hover:text-white transition-colors">
               Dashboard
             </a>
@@ -26,7 +26,7 @@ export function Header() {
             >
               Sign In
             </Button>
-          </nav>
+          </nav> */}
           <Button variant="ghost" size="icon" className="md:hidden text-white">
             <Menu className="h-6 w-6" />
           </Button>
